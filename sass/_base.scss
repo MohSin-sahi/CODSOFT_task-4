@@ -1,0 +1,31 @@
+// COLOR VARIABLES
+
+$color-text: #333;
+$color-white: #fff;
+$color-black: #000;
+$background-color: #00fff2;
+$background-color-1: #ff5945;
+$background-color-2: #a7a7f0;
+$background-color-3: #ff5f5f;
+
+// FONT VARIABLES
+
+$font-primary: "Roboto", sans-serif;
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 400;
+  line-height: 1.6;
+}
